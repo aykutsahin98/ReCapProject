@@ -30,3 +30,11 @@
 
 ![color](https://user-images.githubusercontent.com/36954450/109537681-38395600-7ad0-11eb-9bc6-99b924c60214.jpg)
 
+## USER AND CUSTOMER SCREENS
+![userr](https://user-images.githubusercontent.com/36954450/109538133-c6add780-7ad0-11eb-9180-07fcaadd44cf.jpg)
+
+![customer-screeen](https://user-images.githubusercontent.com/36954450/109538239-e9d88700-7ad0-11eb-8987-2e86551f0471.jpg)
+
+## RENT A CAR SCREEN
+![rental-screen](https://user-images.githubusercontent.com/36954450/109538316-fc52c080-7ad0-11eb-98d9-4d6b1465fd03.jpg)
+
