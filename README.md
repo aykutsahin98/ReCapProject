@@ -19,3 +19,6 @@
 - Constants adında Sistem Mesajları entegre edildi ve proje uyumlu hale getirildi 
 - Uygulamaya Arayüz Tasarımı Yapıldı ve Entityframework altapısı ile kodları yazıldı (28/02/2021)
 - Uygulamaya WebAPI katmanı eklendi ve Business katmanı servisleri ile entegre sağlandı (01/03/2021)
+
+## UYGULAMA ARAYÜZÜ
+
