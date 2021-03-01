@@ -21,5 +21,5 @@
 - Uygulamaya WebAPI katmanı eklendi ve Business katmanı servisleri ile entegre sağlandı (01/03/2021)
 
 ## UYGULAMA ARAYÜZÜ
-https://github.com/aykutsahin98/ReCapProject/issues/1#issue-819106865
+![Ekran-görüntüsü-2021-03-01-202051](https://user-images.githubusercontent.com/36954450/109537513-00321300-7ad0-11eb-9118-1b6b7669a53c.jpg)
 
