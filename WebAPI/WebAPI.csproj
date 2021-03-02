@@ -5,25 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Business\Business.csproj" />
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
     <ProjectReference Include="..\Entities\Entities.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="UserOperations.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UserOperations.Designer.cs">
-      <DependentUpon>UserOperations.cs</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="UserOperations.resx">
-      <DependentUpon>UserOperations.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
 
 

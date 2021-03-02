@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,11 +30,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -49,6 +49,18 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -70,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,6 +120,22 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -133,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,8 +187,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -200,14 +228,14 @@
         }
       }
     },
-    "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -226,8 +254,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }
@@ -263,14 +291,14 @@
         }
       }
     },
-    "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -289,17 +317,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Business\\Business.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Business\\Business.csproj"
               },
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\MÜZİK\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -313,6 +341,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
