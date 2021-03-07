@@ -4,17 +4,12 @@
 - **Entities, DataAccess, Business ve Console katmanlarından oluşan Araç Kiralama Console projesidir. Şimdilik Car, Brand, Color nesnesinden ve onun operasyonlarından oluşan küçük proje zamanla geliştirilecektir.**
 
 ## Recent Changes
-
-- LINQ Sorguları eklendi.
-- Business, DataAccess, Entities ve ConsoleUI katmanları eklendi.
-- Katmanlara Abstract ve Concrete sınıfları eklendi.
 - EntityFrameWork altyapısı kuruldu ve sistem ona göre entegre edildi.
-- Sisteme Generic IEntityRepository altyapısı eklendi.
-- SQL Server altyapısı oluşturuldu
 - Core Katmanı Sisteme Entegre Edildi.
-- Result Yapılandırması Eklendi.
 - Uygulamaya Arayüz Tasarımı Yapıldı ve Entityframework altapısı ile kodları yazıldı (28/02/2021)
 - Uygulamaya WebAPI katmanı eklendi ve Business katmanı servisleri ile entegre sağlandı (01/03/2021)
+- Car Image Ekleme desteği eklendi (03/03/2021)
+- JWT Entegrasyonu ve User Operations Claim'ler eklendi (07/03/2021)
 
 ## UYGULAMA ARAYÜZÜ
 ![Ekran-görüntüsü-2021-03-01-202051](https://user-images.githubusercontent.com/36954450/109537513-00321300-7ad0-11eb-9118-1b6b7669a53c.jpg)
