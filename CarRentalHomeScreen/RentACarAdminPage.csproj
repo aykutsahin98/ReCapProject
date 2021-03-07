@@ -222,12 +222,6 @@
     <Compile Include="RentACarOperations.Designer.cs">
       <DependentUpon>RentACarOperations.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserOperations.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserOperations.Designer.cs">
-      <DependentUpon>UserOperations.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="BrandOperations.resx">
       <DependentUpon>BrandOperations.cs</DependentUpon>
     </EmbeddedResource>
@@ -262,9 +256,6 @@
     </Compile>
     <EmbeddedResource Include="RentACarOperations.resx">
       <DependentUpon>RentACarOperations.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserOperations.resx">
-      <DependentUpon>UserOperations.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

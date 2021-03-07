@@ -67,8 +67,8 @@ namespace CarRentalHomeScreen
 
         private void buttonUser_Click(object sender, EventArgs e)
         {
-            UserOperations user = new UserOperations();
-            user.Show();
+            //UserOperations user = new UserOperations();
+            //user.Show();
         }
     }
 }

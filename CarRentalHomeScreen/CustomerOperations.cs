@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
@@ -19,14 +20,14 @@ namespace CarRentalHomeScreen
         {
             InitializeComponent();
             LoadCustomer();
-            UserLoad();
+            //UserLoad();
             tarih();
             timer1.Start();
         }
         CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
         UserManager userManager = new UserManager(new EfUserDal());
         RentACarContext context = new RentACarContext();
-        public void UserLoad()
+       /* public void UserLoad()
         {
             var result = userManager.GetAll();(from cu in context.Customers
                           join us in context.Users
@@ -38,7 +39,7 @@ namespace CarRentalHomeScreen
             comboBoxUsers.DataSource = result.Data;
             comboBoxUsers.DisplayMember = "UserName";
             comboBoxUsers.ValueMember = "UserId";
-        }
+        }*/
         public void LoadCustomer()
         {
             var result = (from cu in context.Customers

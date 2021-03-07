@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj": {}
+    "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,6 +58,14 @@
               "target": "Package",
               "version": "[9.5.1, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -67,6 +75,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.5.0, )"
             }
           },
           "imports": [
@@ -83,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,8 +121,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Aykut\\Desktop\\Yeni klasör\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj"
               }
             }
           }
