@@ -16,5 +16,7 @@ namespace Business.Abstract
         IDataResult<List<Car>> GetAll();
         IDataResult<Car> GetById(int carId);
         IDataResult<List<CarDetailDto>> GetCarDetails();
+
+        IResult TransactionalOperation(Car car); // uygulamada tutarlılığı korumak için.
     }
 }
