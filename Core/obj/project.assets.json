@@ -6907,11 +6907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",

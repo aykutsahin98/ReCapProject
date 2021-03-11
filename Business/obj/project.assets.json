@@ -6967,11 +6967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6990,11 +6990,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj"
+            "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }

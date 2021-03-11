@@ -6247,11 +6247,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\ConsoleUI\\ConsoleUI.csproj",
+      "projectUniqueName": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
       "projectName": "ConsoleUI",
-      "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\ConsoleUI\\ConsoleUI.csproj",
+      "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
       "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\ConsoleUI\\obj\\",
+      "outputPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\ConsoleUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6270,14 +6270,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Business\\Business.csproj"
+            "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj"
+            "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }
