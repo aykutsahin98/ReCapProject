@@ -6925,11 +6925,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Aykut\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aykut\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6948,8 +6948,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Aykut\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj"
+            "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Aykut\\Desktop\\Son Proje\\ReCapProject-main\\Core\\Core.csproj"
             }
           }
         }
