@@ -1,7 +1,13 @@
 # Rent A Car Project
 
 ## ⭐ Introduction 
-- **Entities, DataAccess, Business ve Console katmanlarından oluşan Araç Kiralama Console projesidir. Şimdilik Car, Brand, Color nesnesinden ve onun operasyonlarından oluşan küçük proje zamanla geliştirilecektir.**
+
+Entities, DataAccess, Business, Core ve WebAPI katmanlarından oluşan araba kiralama projesidir. Proje Katmanlı mimari yapısı ve SOLID prensipleri dikkate alınarak oluşturulmuştur. 
+
+-  JWT entegrasyonu; Transaction, Cache, Validation ve Performance aspect'leri entegre edilmiştir.
+-  Validation için; FluentValidation desteği. 
+-  IoC için; Autofac desteği eklenmiştir.
+- Projenin arayüzü aşağıda eklediğim şekilde ve SQL dosyasını da ekledim faydalanmak isteyen olursa diye.
 
 ## Recent Changes
 - ✔ EntityFrameWork altyapısı kuruldu ve sistem ona göre entegre edildi.
