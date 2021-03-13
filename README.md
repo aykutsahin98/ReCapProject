@@ -1,5 +1,7 @@
 # Rent A Car Project
 
+## BACK - END TAMAMLANMIŞTIR
+
 ## ⭐ Introduction 
 
 Entities, DataAccess, Business, Core ve WebAPI katmanlarından oluşan araba kiralama projesidir. Proje Katmanlı mimari yapısı ve SOLID prensipleri dikkate alınarak oluşturulmuştur. 
