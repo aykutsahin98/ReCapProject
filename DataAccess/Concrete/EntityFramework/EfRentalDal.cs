@@ -19,6 +19,8 @@ namespace DataAccess.Concrete.EntityFramework
                 var result = from r in context.Rentals
                              join c in context.Cars
                              on r.CarId equals c.CarId
+                             join co in context.Colors
+                             on c.ColorId equals co.ColorId
                              join cu in context.Customers
                              on r.CustomerId equals cu.CustomerId
                              join b in context.Brands
@@ -29,8 +31,10 @@ namespace DataAccess.Concrete.EntityFramework
                              {
                                  RentalId = r.RentalId,
                                  CarName = b.BrandName,
-                                 CompanyName = cu.CompanyName,
+                                 ColorName = co.ColorName,
                                  UserName = u.UserName,
+                                 CompanyName = cu.CompanyName,
+                                 
                                  RentDate = r.RentDate,
                                  ReturnDate = r.ReturnDate
                              };
