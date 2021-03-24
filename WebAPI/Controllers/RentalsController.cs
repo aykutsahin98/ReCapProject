@@ -1,11 +1,8 @@
-﻿using Business.Abstract;
+﻿using System;
+using Business.Abstract;
 using Entities.Concrete;
-using Microsoft.AspNetCore.Http;
+using Entities.DTOs;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
@@ -14,15 +11,19 @@ namespace WebAPI.Controllers
     public class RentalsController : ControllerBase
     {
         IRentalService _rentalService;
+        private IPaymentService _paymentService;
 
-        public RentalsController(IRentalService rentalService)
+
+        public RentalsController(IRentalService rentalService, IPaymentService paymentService)
         {
             _rentalService = rentalService;
+            _paymentService = paymentService;
         }
 
         [HttpPost("add")]
         public IActionResult Add(Rental rental)
         {
+            rental.RentDate = DateTime.Now;
             var result = _rentalService.Add(rental);
             if (result.Success)
             {
@@ -84,6 +85,23 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result);
+        }
+        [HttpPost("paymentadd")]
+        public ActionResult PaymentAdd(PaymentDetailDto paymentDetailDto)
+        {
+            var paymentResult = _paymentService.CreditPayment(paymentDetailDto.Payment);
+            if (!paymentResult.Success)
+            {
+                return BadRequest(paymentResult);
+            }
+            var result = _rentalService.Add(paymentDetailDto.Rental);
+
+            if (result.Success)
+                return Ok(result);
+            else
+            {
+                throw new System.Exception(result.Message);
+            }
         }
     }
 }

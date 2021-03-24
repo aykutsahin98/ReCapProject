@@ -2,18 +2,20 @@
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
 namespace Business.Concrete
 {
-   public class RentalManager: IRentalService
+    public class RentalManager : IRentalService
     {
         IRentalDal _rentalDal;
         public RentalManager(IRentalDal rentalDal)
@@ -53,6 +55,13 @@ namespace Business.Concrete
             return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails());
         }
 
+        public IResult TransactionalOperation(Rental rental)
+        {
+            _rentalDal.Add(rental);
+            _rentalDal.Update(rental);
+            return new SuccessResult(Messages.RentalUpdated);
+        }
+
         [ValidationAspect(typeof(RentalValidator))]
         public IResult Update(Rental rental)
         {
@@ -61,4 +70,3 @@ namespace Business.Concrete
         }
     }
 }
-

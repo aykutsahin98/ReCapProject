@@ -60,6 +60,15 @@ namespace Business.Constants
         public static string PasswordError = "Parola hatası!";
         public static string UserAlreadyExists = "Kullanıcı mevcut!";
         public static string AccessTokenCreated = "Token oluşturuldu.";
+        public static string GetErrorCarMessage = "Bulunamadı";
 
+        public static string Added = "Kart Eklendi";
+
+        public static string Updated = "Kart Bilgisi Güncellendi";
+        public static string Deleted = "Kart Bilgisi Silindi";
+
+        public static string PaymentCompleted = "Ödeme Tamamlandı";
+
+        public static string RentalUpdatedReturnDateError { get; internal set; }
     }
 }

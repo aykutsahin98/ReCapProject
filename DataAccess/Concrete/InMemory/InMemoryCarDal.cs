@@ -7,9 +7,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Concrete.InMemory
-{
-    public class InMemoryCarDal : ICarDal
+//namespace DataAccess.Concrete.InMemory
+//{
+   /* public class InMemoryCarDal : ICarDal
     {
         List<Car> _cars;
         public InMemoryCarDal()
@@ -76,3 +76,4 @@ namespace DataAccess.Concrete.InMemory
         }
     }
 }
+   */

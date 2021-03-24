@@ -62,9 +62,9 @@ namespace WebAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseAuthentication();
+            app.UseStaticFiles();
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
