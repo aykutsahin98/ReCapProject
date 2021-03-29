@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -70,5 +71,7 @@ namespace Business.Constants
         public static string PaymentCompleted = "Ödeme Tamamlandı";
 
         public static string RentalUpdatedReturnDateError { get; internal set; }
+        public static string UserListed = "Kullanıcılar Listelendi";
+        public static string MaintenanceTime = "Sistem şuan bakımdadır.";
     }
 }
